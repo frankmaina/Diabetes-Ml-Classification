@@ -28,4 +28,4 @@ clf.fit(X_train, y_train)
 # test the level of accuracy using 10% of out training data
 accuracy = clf.score(X_test, y_test)
 
-print("The Classifier accuracy level is at %s" % (accuracy))
+print("The Classifier accuracy level is at %s" % (accuracy * 100))
